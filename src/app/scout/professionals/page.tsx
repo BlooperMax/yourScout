@@ -83,7 +83,7 @@ function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ')
 }
 
-export default function professionals() {
+export default function Professionals() {
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false)
 
   return (
